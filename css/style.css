@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #343a40;
 }
@@ -13,6 +17,16 @@ a:hover {
 
 p {
   color: #fff;
+}
+
+.top {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  z-index: 1000;
+  background-color: #17a2b8;
+  padding: 3px;
+  border-radius: 10px;
 }
 
 .content-width {
@@ -37,7 +51,7 @@ p {
 
 
 .submit-color {
-  background-color: #DE660D;
+  background-color: #17a2b8;
   color: white;
   opacity: 0.9;
   transition: all 0.4s;
@@ -56,8 +70,4 @@ p {
 footer {
   background-color: #343a40;
   text-align: center;
-}
-
-.card {
-  border-radius: 0;
 }
